@@ -37,43 +37,48 @@
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-block bg-primary text-center">
                                 <div class="d-flex align-items-center justify-content-center h-100">
-                                    <h1 class="text-gray-900 mb-4">Viscomm</h1>
+                                    <h1 class="text-gray-900 mb-4">Vascomm</h1>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h5 text-gray-900 mb-4">Selamat Datang Admin</h1>
-                                        <p style="font-size: 10px">Silahkan masukkan email atau nomor telepon dan password Anda untuk mulai menggunakan aplikasi</p>
+                                        <p style="font-size: 10px">Silahkan masukkan email atau nomor telepon dan
+                                            password Anda untuk mulai menggunakan aplikasi</p>
                                     </div>
                                     <form class="user" action="{{ route('login.post') }}" method="POST">
                                         @csrf
                                         <div class="form-group row">
                                             <div class="col-12">
                                                 <label for="email">Email / Nomor Telepon</label>
-                                                <input class="form-control" name="email" type="text" required="" placeholder="Email">
+                                                <input class="form-control" name="email" type="text" required=""
+                                                    placeholder="Email">
                                             </div>
                                         </div>
-            
+
                                         <div class="form-group row">
                                             <div class="col-12">
                                                 <label for="password">Password</label>
-                                                <input class="form-control" name="password" type="password" required="" placeholder="Masukkan Password">
+                                                <input class="form-control" name="password" type="password"
+                                                    required="" placeholder="Masukkan Password">
                                             </div>
                                         </div>
-            
+
                                         <div class="form-group text-center row m-t-20">
                                             <div class="col-12">
-                                                <button class="btn btn-primary btn-block btn-square waves-effect waves-light" type="submit">Masuk</button>
+                                                <button
+                                                    class="btn btn-primary btn-block btn-square waves-effect waves-light"
+                                                    type="submit">Masuk</button>
                                             </div>
                                         </div>
                                         <hr>
-                                       
+
                                     </form>
-                                    
-                                    
-                                   
+
+
+
                                 </div>
                             </div>
                         </div>
